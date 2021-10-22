@@ -25,6 +25,8 @@ window.onscroll = () => {
     } else {
         document.querySelector('div.top').style.opacity = '0';
     }
+    document.querySelector('div.topscroll').style.width = window.scrollY / 2 + 'px';
+
 }
 
 ////// AOS animation
